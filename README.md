@@ -1,4 +1,6 @@
-# Web Scraping
+# Mission to Mars
+
+![mission_to_mars](https://www.nasa.gov/sites/default/files/thumbnails/image/concept-gateway-2024-00004.jpg)
 
 I recently learnt Web Scraping and thought of testing my skills by building a web application that scrapes multiple websites to collect data related to the Mission to Mars and display the information in a single HTML page. 
 
