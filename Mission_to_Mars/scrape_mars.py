@@ -45,6 +45,7 @@ def scrape_mars():
   space_table = space_soup.find('table', class_="tablepress tablepress-id-p-mars")
   mars_df = pd.read_html(space_url)[0]
   mars_df.columns = ['Characteristic', 'Fact']
+  mars_df.set_index('Characteristic', inplace=True)
   mars_html = mars_df.to_html()
   space_browser.quit()
 
